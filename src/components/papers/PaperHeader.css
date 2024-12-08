@@ -1,0 +1,85 @@
+/* Main Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+/* Authors Section */
+.authors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.author {
+    margin: 20px;
+    text-align: center;
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.author:hover {
+    transform: translateY(-5px);
+}
+
+.author a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.author-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.author p {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Affiliations Section */
+.affiliations {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+.award {
+    font-size: 1.4em;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Resources Section */
+.resources {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resource-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.resource-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}

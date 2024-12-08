@@ -1,0 +1,43 @@
+.paper-app-bar {
+    background: var(--bg-secondary);
+    padding: 0 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.other-research-logo {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 8px;
+    padding: 10px;
+    filter: brightness(0.9);
+}
+
+.other-research-text {
+    padding: 12px 20px;
+    cursor: pointer;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    position: relative;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.other-research-text:hover {
+    color: var(--accent-primary);
+}

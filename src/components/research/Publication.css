@@ -1,0 +1,226 @@
+.publication {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    background: var(--bg-card);
+    border-left: 5px solid var(--accent-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.publication:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.publication-image-container {
+    flex: 0 0 40%;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publication-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.publication-content-container {
+    flex: 0 0 60%;
+    display: flex;
+    align-items: center;
+}
+
+.publication-content {
+    padding: 10px;
+    width: 100%;
+}
+
+.publication-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--text-primary);
+}
+
+.publication-authors {
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-top: 8px;
+}
+
+.publication-info {
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.pub-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+.link-arxiv { background-color: #c0392b; }
+.link-project { background-color: #2980b9; }
+.link-bibtex { background-color: #27ae60; }
+.link-slides { background-color: #8e44ad; }
+.link-poster { background-color: #d4ac0d; }
+.link-video { background-color: #d35400; }
+
+.pub-button:hover:not(.disabled) {
+    filter: brightness(110%);
+    transform: translateY(-1px);
+}
+
+.pub-button.disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.pub-button:not(.disabled) {
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.stats-toggle {
+    margin-left: 10px;
+    padding: 2px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+.stats-toggle:hover {
+    background: #f5f5f5;
+}
+
+.publication-stats {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+.awards {
+    color: #d4af37;
+    margin-bottom: 5px;
+}
+
+.acceptance-rate {
+    color: #666;
+}
+
+.bibtex-container {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.bibtex-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.copy-button {
+    padding: 4px 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.2s;
+}
+
+.copy-button:hover {
+    background-color: #219a52;
+}
+
+.bibtex-content {
+    margin: 0;
+    font-family: monospace;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.other-versions {
+    margin-top: 20px;
+    border-top: 1px solid #ccc; /* Adds a light gray horizontal line */
+}
+
+.version {
+    margin-bottom: 10px;
+}
+
+.version-title {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.version-conference {
+    font-size: 0.8em;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .publication {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .publication-image-container {
+        flex: 0 0 auto; /* Allow the image container to take its natural height */
+        width: 100%; /* Make the image container full width */
+    }
+
+    .publication-content-container {
+        flex: 0 0 auto; /* Allow the content container to take its natural height */
+        width: 100%; /* Make the content container full width */
+    }
+
+    .publication-image {
+        width: 100%; /* Ensure the image is responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+.publication-links a {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: var(--accent-primary);
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.publication-links a:hover {
+    background-color: var(--accent-hover);
+}

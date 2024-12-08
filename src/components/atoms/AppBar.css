@@ -1,0 +1,195 @@
+/* Base styles */
+.app-bar {
+    background: linear-gradient(to right, var(--bg-secondary), var(--bg-card));
+    padding: 0 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-primary);
+    font-family: 'Playfair Display', 'Inter', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    height: 65px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+
+    width: 100%;
+}
+
+.tab {
+    padding: 8px 24px;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    position: relative;
+    margin: 0 12px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.tab::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--accent-primary);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.tab:hover {
+    color: var(--text-primary);
+}
+
+.tab:hover::after {
+    width: 80%;
+}
+
+.tab.active {
+    color: #fff;
+    font-weight: 500;
+    /* background-color: #6C80BB; */
+    border-radius: 4px;
+}
+
+.tab.active::after {
+    width: 80%;
+}
+
+.app-bar .left, .app-bar .right {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px; /* Horizontal padding */
+}
+
+.app-bar .left {
+    flex: 0 0 40%;
+    font-size: 28px; /* Large font size for the title */
+    color: var(--text-secondary); /* Blue color for the title */
+
+
+}
+
+.app-bar .right {
+    flex: 1 0 60%;
+}
+
+@media (min-width: 768px) {
+    .app-bar {
+        min-height: 70px;
+    }
+
+    .tab {
+        padding: 10px 15px;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .app-bar {
+        /* padding: 0 30px; Adequate padding */
+        min-height: 80px;
+    }
+
+    .tab {
+        padding: 12px 20px;
+        font-size: 16px;
+        margin: 0 8px;
+    }
+}
+
+/* Mobile styles (768px and below) */
+@media (max-width: 768px) {
+    .app-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 8px 10px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        background: #ffffff;
+    }
+
+    .app-bar .left {
+        font-size: 18px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+        flex: none;
+    }
+
+    .app-bar .right {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .tab {
+        padding: 6px 8px;
+        font-size: 14px;
+        margin: 2px;
+    }
+
+    .tabs {
+        padding: 8px 10px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .app-bar {
+        padding: 5px; /* Minimal padding */
+    }
+
+    .app-bar .left, .tab {
+        font-size: 16px; /* Small font size */
+        padding: 4px 6px;
+        margin: 1px;
+    }
+
+    .tab {
+        padding: 4px 6px;
+        font-size: 12px;
+        margin: 1px;
+    }
+
+    .tab::after {
+        display: none; /* Hide the underline effect */
+    }
+
+    .tab.active {
+        background-color: rgba(0, 122, 255, 0.1);
+        color: #007aff;
+        border-radius: 4px; /* Rounded corners for active tab */
+    }
+}
+
+/* Add margin to the main content containers */
+.awards-container,
+.service-container {
+    margin-top: 0;
+    padding-top: 20px;
+}

@@ -1,0 +1,54 @@
+{
+  "experience": [
+    {
+      "title": "Data Science Internship, American Airlines",
+      "duration": "Jun 2024 - Aug 2024",
+      "description": [
+      "Leveraged predictive analytics to model factors driving email unsubscribes, addressing a $140K revenue impact",
+      "Conducted exploratory data analysis on marketing, sales, travel, and loyalty data, identifying 130+ key features",
+      "Built an ETL pipeline in Databricks to extract 130+ features from Mosaic via Teradata into Azure Data Factory",
+      "Analyzed interpretable classifiers (Logistic Regression, Random Forests, CatBoost) and deployed an optimized model projected to reduce unsubscribes by 30%"   
+      ] 
+    },
+    {
+      "title": "Teaching Assistant, UT Dallas",
+      "duration": "Jan 2023 - Dec 2024",
+      "description": [
+        "Teaching Assistant for courses Statistica Methods in AI & ML, Artificial Intelligence, Operating Systems",
+        "Prepared and graded assignments, and exams, ensuring a comprehensive evaluation of student understanding"
+      ]
+    },
+    {
+      "title": "Indian Navy",
+      "duration": "Sep 2016 - Apr 2022",
+      "description": [
+        "Business Analyst - Managed projects worth $3B by overseeing timelines, mitigating delays, by coordinating task re-planning",
+        "Training Instructor - Ab-initio, refresher courses"
+      ]
+    },
+    {
+      "title": "Business Development Associate, QYK",
+      "duration": "Feb 2015 - Aug 2015",
+      "description": [
+        "Developed hyper-local marketing strategies to target consumers looking for trustworthy nearby vendors"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "The University of Texas at Dallas",
+      "duration": "Aug 2022 - Dec 2024",
+      "description": [
+        "Master's in Computer Science, GPA: 4.0/ 4.0"
+
+      ]
+    },
+    {
+      "title": "Indian Institute of Technology, Kharagpur",
+      "duration": "Jul 2011 - May 2016",
+      "description": [
+        "B.Tech(Hons) and M.Tech in Ocean Engineering and Micro in Engineering Systems Reliability"
+      ]
+    }
+  ]
+}

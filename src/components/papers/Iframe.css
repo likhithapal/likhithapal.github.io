@@ -1,0 +1,35 @@
+.paper-container {
+    font-family: 'Caladea', serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;       /* Use full width instead of a max width */
+    margin: 0;         /* Remove auto margin to allow full width */
+    padding: 0;         /* Optional: ensure no extra padding */
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.iframe-container {
+    flex: 1;
+    width: 100%;        /* Ensure this container spans the full width */
+    overflow: hidden;
+    position: relative;
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

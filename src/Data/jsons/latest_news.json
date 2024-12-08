@@ -1,0 +1,57 @@
+{
+  "profile": {
+    "name": "Likhitha Pallapothula",
+    "profilePic": "assets/profile_picture.jpg",
+    "cvLink": "https://www.linkedin.com/in/likhithapallapothula/",
+    "socialLinks": {
+      "github": "https://github.com/likhithapal",
+      "linkedin": "https://www.linkedin.com/in/likhithapallapothula/",
+      "scholar": "",
+      "twitter": ""
+    }
+  },
+  "news": [
+    {
+      "date": "Sep 2024",
+      "tagColor": "common_tag",
+      "category": "Acceptance",
+      "description": "CaptainCook4D was accepted at NeurIPS 2024",
+      "link": "https://captaincook4d.github.io/captain-cook/"
+    },
+    {
+      "date": "Sep 2024",
+      "tagColor": "common_tag",
+      "category": "Award",
+      "description": "Our product iTeach emerged as winner at the Breaking Barriers Hackathon organized by AWS, Nvidia, AT&T, TmForum and Anthropic",
+      "link": "https://drive.google.com/file/d/1L1Cre2g53e27QlFAOIqilLRNpM2bU9Hv/view?usp=sharing"
+    },
+    {
+      "date": "Feb 2024",
+      "tagColor": "common_tag",
+      "category": "New Paper",
+      "description": "Received a Special Mention at American Airlines, Advanced Analytics Hackathon sponsored by Snowflake",
+      "link": "https://media.licdn.com/dms/image/v2/D5622AQH7zKVnLH2Alg/feedshare-shrink_800/feedshare-shrink_800/0/1708364516233?e=1736380800&v=beta&t=ClCyl3MqT7eXTwgf70Y9dhZxqvKgvwthKfjmgSo76Eo"
+    },
+    {
+      "date": "Sep 2023",
+      "tagColor": "common_tag",
+      "category": "New Paper",
+      "description": "Recipient of GHC Scholarship 2023",
+      "link": ""
+    },
+    {
+      "date": "May 2023",
+      "tagColor": "common_tag",
+      "category": "New Paper",
+      "description": "Put on your detective hat: What's wrong in this video? is accepted at the Data Centric Machine Learning Workshop @ ICML 2023",
+      "link": "https://dmlr.ai/"
+    },
+    {
+      "date": "Oct 2022",
+      "tagColor": "common_tag",
+      "category": "Acceptance",
+      "description": "Recipient of PanIIT Graduate Scholarship 2022",
+      "link": ""
+    }
+  ]
+}

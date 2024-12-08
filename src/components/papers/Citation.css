@@ -1,0 +1,45 @@
+/******************  CITATION CSS ************************/
+
+.citation {
+    margin-top: 40px;
+    padding: 20px;
+    background: var(--bg-card);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.citation-title {
+    font-size: 1.5em;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+.citation-text {
+    background: var(--bg-secondary);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: var(--text-secondary);
+}
+
+.copy-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--accent-primary);
+    color: var(--text-primary);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.copy-button:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-3px);
+}

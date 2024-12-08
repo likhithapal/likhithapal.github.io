@@ -1,0 +1,38 @@
+{
+  "2023": [
+    {
+      "name": "Grace Hopper Conference (GHC) Scholarship",
+      "imageUrl": "assets/pictures/utdLogo.png"
+    }
+  ],
+  "2022": [
+    {
+      "name": "PanIIT Graduate Scholarship",
+      "imageUrl": "assets/pictures/PanIIT.jpg"
+    }
+  ],
+  "2021": [
+    {
+      "name": "Best Instructor Award for NBCD Key Course",
+      "imageUrl": "assets/pictures/nbcd.jpeg"
+    }
+  ],
+  "2018": [
+    {
+      "name": "Overall Order of Merit Award",
+      "imageUrl": "assets/pictures/navy.png"
+    }
+  ],
+  "2016": [
+    {
+      "name": "Secured All India Rank 15 in GATE(Graduate Aptitude Test in Engineering)",
+      "imageUrl": "assets/pictures/gate.jpg"
+    }
+  ],
+  "2011-2016": [
+    {
+      "name": "Merit scholarship, IIT Kharagpur",
+      "imageUrl": "assets/pictures/iitKharagpurLogo.jpg"
+    }
+  ]
+}

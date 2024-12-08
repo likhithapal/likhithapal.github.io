@@ -1,0 +1,36 @@
+{
+  "publicationsData": [
+
+    {
+      "title": "CaptainCook4D: A dataset for understanding errors in procedural activities",
+      "authors": [
+        "Rohith Peddi", "Shivvrat Arya", "Bharath Challa", "Likhitha Pallapothula", "Akshay Vyas", "Bhavya Gouripeddi","Jikai Wang", "Qifan Zhang", "Vasundhara Komaragiri", "Eric Ragan", "Nicholas Ruozzi", "Yu Xiang", "Vibhav Gogate"
+      ],
+      "conference": "NeurIPS",
+      "year": "2024",
+      "imageUrl": "assets/paper_pictures/CaptainCook4D.png",
+      "arxivLink": "https://arxiv.org/abs/2312.14556",
+      "projectLink": "https://rohithpeddi.github.io/captaincook",
+      "area": "Scene Understanding",
+      "acceptanceRate": "25.3%",
+      "slides": "https://utdallas.box.com/s/9xevexpby7dkbbj63qnhq070t0hwetym",
+      "video": "https://recorder-v3.slideslive.com/?share=97108&s=ca6cffad-6324-4374-b011-a137e103cb00",
+      "poster": "https://utdallas.box.com/s/9dugwrcfyrp9fha1noq44wh1nbymit0s",
+      "bibtex": "@misc{peddi2024captaincook4ddatasetunderstandingerrors,\n      title={CaptainCook4D: A Dataset for Understanding Errors in Procedural Activities}, \n      author={Rohith Peddi and Shivvrat Arya and Bharath Challa and Likhitha Pallapothula and Akshay Vyas and Bhavya Gouripeddi and Jikai Wang and Qifan Zhang and Vasundhara Komaragiri and Eric Ragan and Nicholas Ruozzi and Yu Xiang and Vibhav Gogate},\n      year={2024},\n      eprint={2312.14556},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2312.14556}, \n}"
+    },
+    {
+      "title": "Put on your detective hat: Whats wrong in this video?",
+      "authors": [
+        "Rohith Peddi", "Shivvrat Arya", "Bharath Challa", "Likhitha Pallapothula", "Akshay Vyas", "Jikai Wang", "Qifan Zhang", "Vasundhara Komaragiri", "Eric Ragan", "Nicholas Ruozzi", "Yu Xiang", "Vibhav Gogate"
+      ],
+      "conference": "Data-centric Machine Learning Research (DMLR) Workshop @ International Conference on Machine Learning",
+      "year": "2023",
+      "imageUrl": "assets/paper_pictures/detective_hat.png",
+      "arxivLink": "https://dmlr.ai/assets/accepted-papers/136/CameraReady/DMLR_ICML_2023_1.pdf",
+      "projectLink": "https://dmlr.ai/assets/accepted-papers/136/CameraReady/DMLR_ICML_2023_1.pdf",
+      "area": "Scene Understanding",
+      "acceptanceRate": "NA"
+    }
+]
+
+}
